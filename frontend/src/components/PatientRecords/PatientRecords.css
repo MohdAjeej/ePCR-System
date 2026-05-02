@@ -1,0 +1,93 @@
+.patient-records {
+  padding: 20px;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.filter-bar label {
+  font-weight: 500;
+  color: #333;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.record-detail {
+  padding: 20px;
+}
+
+.detail-section {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-section h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.detail-item {
+  margin-bottom: 12px;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.detail-value {
+  color: #333;
+  font-size: 16px;
+}
+
+.vital-signs-list,
+.medication-list {
+  list-style: none;
+  padding: 0;
+}
+
+.vital-signs-list li,
+.medication-list li {
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
